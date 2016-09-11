@@ -1,0 +1,16 @@
+INT cost, amount;
+INT cost1 = 0;
+INT cost2 = amount;
+INT MAIN(STRING args){
+	DISPLAY("Total amount");
+	SCAN ( name );
+	DISPLAY("Cost", cost, "Amount", amount);
+	DISPLAY("Total Cost", amount);
+	cost = amount;
+	cost = 90;
+	cost = cost + amount;
+	GIVEN ( cost == amount ) { DISPLAY ( "Equal_Amount" ) ; }
+	OR GIVEN ( cost > amount ) { DISPLAY ( "Equal_Amount" ) ; }
+	OTHERWISE { DISPLAY ( "Equal_Amount" ) ; }
+	WHILE (cost!=0) { DISPLAY ( "Amount" ) ; }
+}
