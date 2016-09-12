@@ -920,7 +920,7 @@ void lexical_analysis(char *input_file){
 	traverse(state0);
 	//getch();
 	//parser();
-	printf("Lexical Analysis Completed!");
+//	printf("Lexical Analysis Completed!");
 }
 
 #endif
